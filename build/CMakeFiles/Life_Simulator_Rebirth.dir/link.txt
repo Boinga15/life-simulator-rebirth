@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Life_Simulator_Rebirth.dir/main.cpp.o -o Life_Simulator_Rebirth 

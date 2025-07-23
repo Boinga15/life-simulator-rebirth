@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/LSR.dir/src/main.cpp.o -o LSR  libutils_lib.a 
