@@ -44,5 +44,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/utils_lib.dir/DependInfo.cmake"
+  "CMakeFiles/scene_lib.dir/DependInfo.cmake"
+  "CMakeFiles/entity_lib.dir/DependInfo.cmake"
+  "CMakeFiles/data_lib.dir/DependInfo.cmake"
   "CMakeFiles/LSR.dir/DependInfo.cmake"
   )

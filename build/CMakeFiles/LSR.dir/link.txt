@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/LSR.dir/src/main.cpp.o -o LSR  libutils_lib.a 
+/usr/bin/c++ CMakeFiles/LSR.dir/src/main.cpp.o -o LSR  libutils_lib.a libscene_lib.a libentity_lib.a libdata_lib.a 

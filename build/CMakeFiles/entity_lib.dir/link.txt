@@ -1,0 +1,2 @@
+/usr/bin/ar qc libentity_lib.a CMakeFiles/entity_lib.dir/src/player.cpp.o CMakeFiles/entity_lib.dir/src/items.cpp.o
+/usr/bin/ranlib libentity_lib.a

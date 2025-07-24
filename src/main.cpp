@@ -1,9 +1,10 @@
 #include<iostream>
 
 #include "utils.h"
+#include "openingScene.h"
 
 int main() {
-    clearScreen();
+    utils::clearScreen();
 
     bool gameRunning = true;
 
@@ -12,14 +13,14 @@ int main() {
         std::cout << "The sequel that nobody asked for, but the world got.\n" << std::endl;
 
         std::string options[] = {"Play", "Continue", "Quit", ""};
-        
-        int op = optionSelect(options);
 
-        clearScreen();
+        int op = utils::optionSelect(options);
+
+        utils::clearScreen();
 
         switch (op) {
             case 1:
-
+                os::introduction();
                 break;
             
             case 2:

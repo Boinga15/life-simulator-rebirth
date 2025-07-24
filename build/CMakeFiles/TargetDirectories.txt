@@ -1,4 +1,7 @@
 /work/build/CMakeFiles/utils_lib.dir
+/work/build/CMakeFiles/scene_lib.dir
+/work/build/CMakeFiles/entity_lib.dir
+/work/build/CMakeFiles/data_lib.dir
 /work/build/CMakeFiles/LSR.dir
 /work/build/CMakeFiles/edit_cache.dir
 /work/build/CMakeFiles/rebuild_cache.dir

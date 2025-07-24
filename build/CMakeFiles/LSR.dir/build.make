@@ -93,6 +93,9 @@ LSR_EXTERNAL_OBJECTS =
 LSR: CMakeFiles/LSR.dir/src/main.cpp.o
 LSR: CMakeFiles/LSR.dir/build.make
 LSR: libutils_lib.a
+LSR: libscene_lib.a
+LSR: libentity_lib.a
+LSR: libdata_lib.a
 LSR: CMakeFiles/LSR.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LSR"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LSR.dir/link.txt --verbose=$(VERBOSE)

@@ -182,7 +182,8 @@ CMakeFiles/LSR.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../headers/utils.h \
-  /usr/include/c++/11/limits
+  /usr/include/c++/11/limits \
+  ../headers/openingScene.h
 
 
 /usr/include/c++/11/limits:
@@ -322,6 +323,8 @@ CMakeFiles/LSR.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/cwchar:
+
+../headers/openingScene.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 

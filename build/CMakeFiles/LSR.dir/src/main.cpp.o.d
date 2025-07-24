@@ -145,4 +145,4 @@ CMakeFiles/LSR.dir/src/main.cpp.o: /work/src/main.cpp \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /work/headers/utils.h \
- /usr/include/c++/11/limits
+ /usr/include/c++/11/limits /work/headers/openingScene.h

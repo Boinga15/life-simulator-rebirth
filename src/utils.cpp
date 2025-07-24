@@ -1,6 +1,6 @@
 #include "utils.h"
 
-int optionSelect(std::string options[]) {
+int utils::optionSelect(std::string options[]) {
     int cIndex = 0;
     
     while (options[cIndex] != "") {
@@ -23,6 +23,16 @@ int optionSelect(std::string options[]) {
     return option;
 }
 
-void clearScreen() {
+void utils::clearScreen() {
     std::cout << "\033[2J\033[1;1H";
+}
+
+void utils::pauseGame() {
+    std::cout << "\nPress enter to continue..." << std::endl;
+    char writeBuffer;
+
+    std::cin.get(writeBuffer);
+
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 }

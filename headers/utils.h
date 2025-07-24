@@ -4,8 +4,10 @@
 #include <iostream>
 #include <limits>
 
-int optionSelect(std::string options[]);
-
-void clearScreen();
+namespace utils {
+    int optionSelect(std::string options[]);
+    void clearScreen();
+    void pauseGame();
+}
 
 #endif

@@ -130,6 +130,45 @@ utils_lib/fast:
 .PHONY : utils_lib/fast
 
 #=============================================================================
+# Target rules for targets named scene_lib
+
+# Build rule for target.
+scene_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scene_lib
+.PHONY : scene_lib
+
+# fast build rule for target.
+scene_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_lib.dir/build.make CMakeFiles/scene_lib.dir/build
+.PHONY : scene_lib/fast
+
+#=============================================================================
+# Target rules for targets named entity_lib
+
+# Build rule for target.
+entity_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 entity_lib
+.PHONY : entity_lib
+
+# fast build rule for target.
+entity_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entity_lib.dir/build.make CMakeFiles/entity_lib.dir/build
+.PHONY : entity_lib/fast
+
+#=============================================================================
+# Target rules for targets named data_lib
+
+# Build rule for target.
+data_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data_lib
+.PHONY : data_lib
+
+# fast build rule for target.
+data_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_lib.dir/build.make CMakeFiles/data_lib.dir/build
+.PHONY : data_lib/fast
+
+#=============================================================================
 # Target rules for targets named LSR
 
 # Build rule for target.
@@ -141,6 +180,54 @@ LSR: cmake_check_build_system
 LSR/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSR.dir/build.make CMakeFiles/LSR.dir/build
 .PHONY : LSR/fast
+
+src/data.o: src/data.cpp.o
+.PHONY : src/data.o
+
+# target to build an object file
+src/data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_lib.dir/build.make CMakeFiles/data_lib.dir/src/data.cpp.o
+.PHONY : src/data.cpp.o
+
+src/data.i: src/data.cpp.i
+.PHONY : src/data.i
+
+# target to preprocess a source file
+src/data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_lib.dir/build.make CMakeFiles/data_lib.dir/src/data.cpp.i
+.PHONY : src/data.cpp.i
+
+src/data.s: src/data.cpp.s
+.PHONY : src/data.s
+
+# target to generate assembly for a file
+src/data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_lib.dir/build.make CMakeFiles/data_lib.dir/src/data.cpp.s
+.PHONY : src/data.cpp.s
+
+src/items.o: src/items.cpp.o
+.PHONY : src/items.o
+
+# target to build an object file
+src/items.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entity_lib.dir/build.make CMakeFiles/entity_lib.dir/src/items.cpp.o
+.PHONY : src/items.cpp.o
+
+src/items.i: src/items.cpp.i
+.PHONY : src/items.i
+
+# target to preprocess a source file
+src/items.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entity_lib.dir/build.make CMakeFiles/entity_lib.dir/src/items.cpp.i
+.PHONY : src/items.cpp.i
+
+src/items.s: src/items.cpp.s
+.PHONY : src/items.s
+
+# target to generate assembly for a file
+src/items.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entity_lib.dir/build.make CMakeFiles/entity_lib.dir/src/items.cpp.s
+.PHONY : src/items.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -165,6 +252,54 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LSR.dir/build.make CMakeFiles/LSR.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/openingScene.o: src/openingScene.cpp.o
+.PHONY : src/openingScene.o
+
+# target to build an object file
+src/openingScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_lib.dir/build.make CMakeFiles/scene_lib.dir/src/openingScene.cpp.o
+.PHONY : src/openingScene.cpp.o
+
+src/openingScene.i: src/openingScene.cpp.i
+.PHONY : src/openingScene.i
+
+# target to preprocess a source file
+src/openingScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_lib.dir/build.make CMakeFiles/scene_lib.dir/src/openingScene.cpp.i
+.PHONY : src/openingScene.cpp.i
+
+src/openingScene.s: src/openingScene.cpp.s
+.PHONY : src/openingScene.s
+
+# target to generate assembly for a file
+src/openingScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scene_lib.dir/build.make CMakeFiles/scene_lib.dir/src/openingScene.cpp.s
+.PHONY : src/openingScene.cpp.s
+
+src/player.o: src/player.cpp.o
+.PHONY : src/player.o
+
+# target to build an object file
+src/player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entity_lib.dir/build.make CMakeFiles/entity_lib.dir/src/player.cpp.o
+.PHONY : src/player.cpp.o
+
+src/player.i: src/player.cpp.i
+.PHONY : src/player.i
+
+# target to preprocess a source file
+src/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entity_lib.dir/build.make CMakeFiles/entity_lib.dir/src/player.cpp.i
+.PHONY : src/player.cpp.i
+
+src/player.s: src/player.cpp.s
+.PHONY : src/player.s
+
+# target to generate assembly for a file
+src/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/entity_lib.dir/build.make CMakeFiles/entity_lib.dir/src/player.cpp.s
+.PHONY : src/player.cpp.s
 
 src/utils.o: src/utils.cpp.o
 .PHONY : src/utils.o
@@ -199,10 +334,25 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LSR"
+	@echo "... data_lib"
+	@echo "... entity_lib"
+	@echo "... scene_lib"
 	@echo "... utils_lib"
+	@echo "... src/data.o"
+	@echo "... src/data.i"
+	@echo "... src/data.s"
+	@echo "... src/items.o"
+	@echo "... src/items.i"
+	@echo "... src/items.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/openingScene.o"
+	@echo "... src/openingScene.i"
+	@echo "... src/openingScene.s"
+	@echo "... src/player.o"
+	@echo "... src/player.i"
+	@echo "... src/player.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libscene_lib.a CMakeFiles/scene_lib.dir/src/openingScene.cpp.o
+/usr/bin/ranlib libscene_lib.a
